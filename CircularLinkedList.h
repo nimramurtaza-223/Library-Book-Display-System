@@ -2,13 +2,13 @@
 #define CIRCULAR_LIST_H
 
 #include <string>
-
+# Node structure for storing item information
 struct ItemNode {
     int id;
     std::string name;
     ItemNode* next;
 };
-
+# Class for managing items in a circular linked list
 class CircularList {
 private:
     ItemNode* head;
