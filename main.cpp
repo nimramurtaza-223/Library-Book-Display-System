@@ -5,7 +5,9 @@
 
 using namespace std;
 
-int main() {
+int main() 
+# Displays the menu and manages library book operations
+{
     CircularList collection;
     int choice = 0;
     int id, index, index1, index2;
