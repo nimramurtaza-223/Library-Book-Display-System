@@ -133,6 +133,7 @@ void CircularList::Sort() {
 void CircularList::Reverse() {
     if (count < 2)
         return;
+    currentItem=head->next;
     ItemNode* oldTail = head;
     ItemNode* oldFirst = head->next;
     ItemNode* previous = oldTail;
